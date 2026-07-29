@@ -1,6 +1,6 @@
-c-linux-include: c-linux-include.c
-	gcc -Wall -Wextra -O2 -o c-linux-include c-linux-include.c
-	strip c-linux-include
+inotify-watch-dir: inotify-watch-dir.c
+	gcc -Wall -Wextra -O2 -o inotify-watch-dir inotify-watch-dir.c.c
+	strip inotify-watch-dir
 
 clean:
-	rm -f c-linux-include
+	rm -f inotify-watch-dir
